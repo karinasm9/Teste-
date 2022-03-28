@@ -7,9 +7,10 @@
 > Anotação
 1. Area do aluno
 2. Boletim
-3. Curso
+3. 
+>  Portugol
 - D
--  E
+-  E 
 -  F
 `Codigo`
 ------ G
