@@ -8,7 +8,7 @@
 1. Area do aluno
 2. Boletim
 3. 
->  Portugol
+>  Visual Studio
 - D
 -  E 
 -  F
