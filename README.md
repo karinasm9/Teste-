@@ -5,9 +5,9 @@
 **Seja Bem Vindo**
 *Alunos*
 > Anotação
-1. A
-2. B
-3. C
+1. Area do aluno
+2. Boletim
+3. Curso
 - D
 -  E
 -  F
