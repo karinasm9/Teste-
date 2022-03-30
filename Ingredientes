@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+<center>
+<h1> Receita </h1>
+<script>
+var nome = prompt("Seja Bem vindo! Informe o seu nome: ")
+var receita = prompt(nome + ", qual receita você deseja anotar? ") 
+var ingredientes =[]
+var quantidade = parseInt(prompt("Quantos ingredientes você vai adicionar?"))
+var contador = 1
+
+while( contador <= quantidade) {
+    
+    var ingrediente = prompt("Informe o ingrediente " + contador)
+    var existe = false
+
+for(var prosicao = 0; prosicao < ingredientes.length; prosicao ++){
+    if(ingredientes[prosicao] == ingrediente){
+            existe = true
+            break
+    }
+}
+    if(existe == false){
+        ingredientes.push(ingrediente)
+        contador ++
+    }
+}
+    
+    console.log(ingredientes)
+    document.write( ingredientes )
+
+</script>
+</center>
